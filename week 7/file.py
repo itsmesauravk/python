@@ -51,7 +51,11 @@
 
 # name="saurav"
 # strtwt=name.startswith("s")
-# print(strtwt)
+# if strtwt == True:
+#     print(name)
+# else:
+#     print("invalid")
+ 
 
 # name="saurav"
 # split=name.split("a")

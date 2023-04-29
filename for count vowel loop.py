@@ -5,7 +5,6 @@ SyntaxError: incomplete input
 >>> def vowel():
 ...     vo=0
 ...     tex=input('any:')
-...     while tex !=0:
-...         tex=input('any:')
-...         if tex == 'a':
-...             vo = vo+1
+...     for i in tex:
+
+    

@@ -1,7 +1,11 @@
-def loop():
-    r=range(100,200)
-    sum=0
-    for x in r:
-        if x%2==0:
-            sum+=x
-    print(sum)
+def matrix():
+    matrix=[[1,1,1],[1,1,1],[1,1,1]]
+    row=int(input("enter row :"))
+    column=int(input("enter cloumn : "))
+    matrix[row][column]="x"
+    for row in matrix:
+        for i in row :
+            print(i,end=" ")
+        print()
+
+        
